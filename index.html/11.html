@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>嵌套规则</title>
+</head>
+<body>
+    块元素：独立成一行  可以设置宽高  默认宽高100%
+         文字类块元素：p  h1-h6
+         容器类块元素：div table tr td th form ul li ol dl dt dd 
+    行元素:不独立成一行 不可以 内容决定
+         a img input strong em del span 
+     特殊字符：文字 br &nbsp;
+
+嵌套规则：
+1.块元素可以嵌套行元素
+<div>这是div <a href="">这是a</a></div>
+
+2.行元素可以嵌套行元素：
+<a href="">这是个<strong>a</strong> </a>
+
+3.文字类快元素不可以嵌套元素
+<p>这是一段这是一段这是一段</p>
+
+5.容器类快元素 可以嵌套块元素
+<div><p></p><p></p></div>
+
+</body>
+</html>
